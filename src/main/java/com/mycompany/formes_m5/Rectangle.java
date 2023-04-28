@@ -17,10 +17,11 @@ public class Rectangle {
     Responsable = Edgar
     public double getPerimeter() {
     }
-    
-    Responsable = Sergi
-    public boolean esQuadrat() {
-    }
     */
+    
+    public boolean esQuadrat() {
+        return this.longitud == this.amplada;
+    }
+    
 }
 
