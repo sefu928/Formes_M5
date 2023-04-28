@@ -8,19 +8,9 @@ public class Rectangle {
         this.longitud = longitud;
         this.amplada = amplada;
     }
-    
-    /*
-    Responsable = Joan
-    public double getArea() {
-    }
 
-    Responsable = Edgar
     public double getPerimeter() {
+        double perimeter = 2 * (longitud + amplada);
+        return perimeter;
     }
-    
-    Responsable = Sergi
-    public boolean esQuadrat() {
-    }
-    */
 }
-
