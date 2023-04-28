@@ -1,6 +1,7 @@
 package com.mycompany.formes_m5;
 
 public class Rectangle {
+
     private double longitud;
     private double amplada;
 
@@ -8,19 +9,13 @@ public class Rectangle {
         this.longitud = longitud;
         this.amplada = amplada;
     }
-    
-    /*
-    Responsable = Joan
+
     public double getArea() {
+        return longitud * amplada;
     }
-
-    Responsable = Edgar
-    public double getPerimeter() {
-    }
-    
-    Responsable = Sergi
-    public boolean esQuadrat() {
-    }
-    */
+    /**
+     * Responsable = Edgar public double getPerimeter() { }
+     *
+     * Responsable = Sergi public boolean esQuadrat() { }
+     */
 }
-
