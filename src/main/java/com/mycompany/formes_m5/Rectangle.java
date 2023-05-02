@@ -13,9 +13,5 @@ public class Rectangle {
     public double getArea() {
         return longitud * amplada;
     }
-    /**
-     * Responsable = Edgar public double getPerimeter() { }
-     *
-     * Responsable = Sergi public boolean esQuadrat() { }
-     */
+  
 }
