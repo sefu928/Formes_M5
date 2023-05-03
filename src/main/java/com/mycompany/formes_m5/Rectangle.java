@@ -23,4 +23,13 @@ public class Rectangle {
       * }
       */
 
+    Responsable = Edgar
+    public double getPerimeter() {
+    }
+    */
+    
+    public boolean esQuadrat() {
+        return this.longitud == this.amplada;
+    }
+    
 }

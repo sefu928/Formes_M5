@@ -14,6 +14,17 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="user.dir" value="/media/alumne/SANDISK/DAM_1er/M05/UF3/Formes_M5"/>
+    <property name="maven.multiModuleProjectDirectory" value="/home/alumne/NetBeansProjects/Formes_M5"/>
+    <property name="java.vm.vendor" value="Private Build"/>
+    <property name="java.vendor.url" value="Unknown"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="user.country" value="ES"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="test" value="com.mycompany.formes_m5.RectangleTest"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/home/alumne/NetBeansProjects/Formes_M5"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="java.runtime.version" value="16.0.1+9-Ubuntu-120.04"/>
     <property name="os.arch" value="amd64"/>
@@ -32,6 +43,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="os.version" value="5.19.0-41-generic"/>
+    <property name="os.version" value="5.19.0-40-generic"/>
     <property name="library.jansi.path" value="/home/alumne/netbeans/java/maven/lib/jansi-native"/>
     <property name="user.home" value="/home/alumne"/>
     <property name="user.timezone" value="Europe/Madrid"/>
@@ -42,6 +54,7 @@
     <property name="java.vm.specification.version" value="16"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -Dmaven.ext.class.path=/home/alumne/netbeans/java/maven-nblib/netbeans-eventspy.jar test"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -Dtest=com.mycompany.formes_m5.RectangleTest -Dmaven.ext.class.path=/home/alumne/netbeans/java/maven-nblib/netbeans-eventspy.jar surefire:test"/>
     <property name="java.home" value="/usr/lib/jvm/java-16-openjdk-amd64"/>
     <property name="user.language" value="ca"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
@@ -56,4 +69,5 @@
     <property name="sun.cpu.endian" value="little"/>
   </properties>
   <testcase classname="com.mycompany.formes_m5.RectangleTest" name="testGetArea" time="0.002"/>
+  <testcase classname="com.mycompany.formes_m5.RectangleTest" name="testEsQuadrat" time="0.002"/>
 </testsuite>

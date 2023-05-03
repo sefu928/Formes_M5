@@ -2,6 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/UnitTests/JUnit4TestClass.java to edit this template
  */
+
 package com.mycompany.formes_m5;
 
 import org.junit.After;
@@ -24,6 +25,18 @@ public class RectangleTest {
         double expectedArea = 12.0;
         double actualArea = rectangle.getArea();
         assertEquals(expectedArea, actualArea, 0.0001);
+public class RectangleTest {
+    
+    Rectangle rectangle;
+
+    @org.junit.Before
+    public void setUp() throws Exception {
+        rectangle = new Rectangle(2.0,2.0);
+    }
+    
+    @org.junit.Test
+    public void testEsQuadrat() {
+        assertEquals(true, rectangle.esQuadrat());
     }
     
 }
