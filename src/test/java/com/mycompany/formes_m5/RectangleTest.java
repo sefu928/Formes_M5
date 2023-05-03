@@ -9,9 +9,8 @@ import static org.junit.Assert.*;
  */
 public class RectangleTest {
 
-    /**
-     * Test del mètode getPerimeter
-     */
+    // Test del mètode getPerimeter
+
     @Test
     public void testGetPerimeter() {
         Rectangle rectangle = new Rectangle(5.0, 8.0);
@@ -19,5 +18,4 @@ public class RectangleTest {
         double actualPerimeter = rectangle.getPerimeter();
         assertEquals(expectedPerimeter, actualPerimeter, 0.0001);
     }
-
 }
