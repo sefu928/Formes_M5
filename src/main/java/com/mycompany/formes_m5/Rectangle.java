@@ -13,23 +13,15 @@ public class Rectangle {
     public double getArea() {
         return longitud * amplada;
 
-    }/*
-      * Responsable = Edgar
-      * public double getPerimeter() {
-      * }
-      * 
-      * Responsable = Sergi
-      * public boolean esQuadrat() {
-      * }
-      */
-
-    Responsable = Edgar
-    public double getPerimeter() {
     }
-    */
-    
+
+    public double getPerimeter() {
+        double perimeter = 2 * (longitud + amplada);
+        return perimeter;
+    }
+
     public boolean esQuadrat() {
         return this.longitud == this.amplada;
     }
-    
+
 }
