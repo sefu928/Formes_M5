@@ -1,6 +1,7 @@
 package com.mycompany.formes_m5;
 
 public class Rectangle {
+
     private double longitud;
     private double amplada;
 

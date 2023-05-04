@@ -7,6 +7,7 @@ import static org.junit.Assert.*;
  *
  * @author Edgar Sanchez
  */
+
 public class RectangleTest {
 
     // Test del mètode getPerimeter
